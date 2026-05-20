@@ -35,8 +35,8 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="relative z-10 flex items-center gap-2">
-          <Image src="/images/logo1.jpeg" alt="Emblam Logo" width={40} height={40} className="rounded object-cover" />
-          <span className="text-xl font-bold tracking-widest text-white">EMBLAM</span>
+          <Image src="/images/logo1.jpeg" alt="Fine Pack Logo" width={40} height={40} className="rounded object-cover" />
+          <span className="text-xl font-bold tracking-widest text-white">FINE PACK</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -75,7 +75,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 right-0 glass border-t border-white/10 p-6 flex flex-col gap-4 md:hidden"
+            className="absolute top-full left-0 right-0 bg-brand-dark/95 backdrop-blur-md border-t border-white/10 p-6 flex flex-col gap-4 md:hidden shadow-2xl"
           >
             {navLinks.map((link) => (
               <Link

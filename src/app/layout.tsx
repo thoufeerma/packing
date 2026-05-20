@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Emblam | Premium Packaging Machines & Materials",
-  description: "Emblam provides industrial but modern packaging solutions, machines, and materials for B2B companies.",
+  title: "Fine Pack Machines And Materials | Premium Packaging",
+  description: "Fine Pack provides industrial but modern packaging solutions, machines, and materials for B2B companies.",
 };
 
 export default function RootLayout({

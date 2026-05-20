@@ -15,8 +15,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/logo1.jpeg" alt="Emblam Logo" width={40} height={40} className="rounded object-cover" />
-              <span className="text-xl font-bold tracking-widest text-white">EMBLAM</span>
+              <Image src="/images/logo1.jpeg" alt="Fine Pack Logo" width={40} height={40} className="rounded object-cover" />
+              <span className="text-xl font-bold tracking-widest text-white">FINE PACK</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Fine Pack Machines And Materials. Providing premium industrial packaging solutions for modern B2B enterprises.
@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail size={18} className="text-brand-neon shrink-0" />
-                <a href="mailto:info@emblam.com" className="hover:text-white transition-colors">info@emblam.com</a>
+                <a href="mailto:info@finepack.com" className="hover:text-white transition-colors">info@finepack.com</a>
               </li>
             </ul>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-xs">
-            &copy; {new Date().getFullYear()} Emblam (Fine Pack Machines And Materials). All rights reserved.
+            &copy; {new Date().getFullYear()} Fine Pack Machines And Materials. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="#" className="text-gray-500 hover:text-white transition-colors text-xs">Privacy Policy</Link>

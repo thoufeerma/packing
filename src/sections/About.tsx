@@ -57,7 +57,7 @@ export default function About() {
               Engineering the Future of <span className="text-gradient-teal">Packaging</span>
             </h2>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Based in Ernakulam, Emblam (Fine Pack Machines And Materials) is a premier provider of state-of-the-art packaging machinery and high-quality packing materials. We specialize in automated solutions that streamline production lines for businesses across diverse industries.
+              Based in Ernakulam, Fine Pack Machines And Materials is a premier provider of state-of-the-art packaging machinery and high-quality packing materials. We specialize in automated solutions that streamline production lines for businesses across diverse industries.
             </p>
             <p className="text-gray-400 mb-8 leading-relaxed">
               Our commitment to innovation, durability, and precise engineering ensures that your products are packaged securely, efficiently, and with the aesthetic appeal that modern consumers demand.

@@ -15,6 +15,7 @@ export default function Hero() {
     if (!containerRef.current || !elementsRef.current) return;
 
     const handleMouseMove = (e: MouseEvent) => {
+      if (window.innerWidth < 768) return; // Disable GSAP hover effect on mobile
       const { clientX, clientY } = e;
       const x = (clientX / window.innerWidth - 0.5) * 20;
       const y = (clientY / window.innerHeight - 0.5) * 20;
@@ -59,7 +60,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-            className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight"
           >
             Industrial Automation <br />
             <span className="text-gradient">Redefined.</span>
@@ -71,7 +72,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light"
           >
-            Emblam delivers premium packing machines and materials engineered for scale, efficiency, and modern B2B enterprises.
+            Fine Pack delivers premium packing machines and materials engineered for scale, efficiency, and modern B2B enterprises.
           </motion.p>
           
           <motion.div 
