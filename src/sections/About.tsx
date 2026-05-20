@@ -102,7 +102,7 @@ export default function About() {
               </div>
               
               {/* Floating badge */}
-              <div className="absolute -bottom-6 -left-6 glass-card p-4 rounded-xl border border-white/10 flex items-center gap-3 animate-[bounce_4s_ease-in-out_infinite]">
+              <div className="absolute -bottom-6 left-4 right-auto md:-left-6 glass-card p-4 rounded-xl border border-white/10 flex items-center gap-3 animate-[bounce_4s_ease-in-out_infinite] z-20 whitespace-nowrap">
                 <div className="w-3 h-3 rounded-full bg-brand-neon"></div>
                 <span className="text-white font-medium text-sm">ISO Certified Quality</span>
               </div>
