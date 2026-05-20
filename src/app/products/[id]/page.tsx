@@ -37,7 +37,7 @@ export default async function ProductDetails({ params }: { params: Promise<{ id:
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Product Image Gallery */}
-          <div className="sticky top-32 space-y-6">
+          <div className="lg:sticky lg:top-32 space-y-6">
             <Link href="/#products" className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-white mb-4 transition-colors">
               <ArrowLeft size={16} /> Back to Products
             </Link>
